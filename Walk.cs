@@ -11,7 +11,7 @@ public class Walk : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-        playerCamera = Camera.main.transform; // メインカメラのTransformを取得
+        //playerCamera = Camera.main.transform; // メインカメラのTransformを取得
     }
 
     // Update is called once per frame
